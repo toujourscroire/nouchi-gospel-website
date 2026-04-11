@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Politique de confidentialité — Nouchi Gospel</title>
+<style>
+  :root {
+    --gold: #B08B12;
+    --gold-light: #D4A820;
+    --bg: #FFFBF0;
+    --text: #2C1810;
+    --muted: #6B5842;
+    --border: #E8D7A8;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 40px 24px 80px;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.65;
+    font-size: 16px;
+  }
+  header {
+    border-bottom: 2px solid var(--gold);
+    padding-bottom: 24px;
+    margin-bottom: 32px;
+  }
+  h1 {
+    color: var(--gold);
+    font-size: 28px;
+    margin: 0 0 8px;
+  }
+  h2 {
+    color: var(--gold);
+    font-size: 20px;
+    margin-top: 40px;
+    padding-top: 8px;
+  }
+  h3 {
+    font-size: 16px;
+    margin-top: 24px;
+    color: var(--text);
+  }
+  .updated {
+    color: var(--muted);
+    font-size: 14px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+    font-size: 14px;
+  }
+  th, td {
+    border: 1px solid var(--border);
+    padding: 10px 12px;
+    text-align: left;
+  }
+  th { background: #F5E8C8; }
+  a { color: var(--gold); }
+  hr {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 40px 0;
+  }
+  code {
+    background: #F5E8C8;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  ul { padding-left: 24px; }
+  li { margin: 6px 0; }
+  footer {
+    margin-top: 60px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 14px;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Politique de confidentialité — Nouchi Gospel</h1>
+  <p class="updated">Dernière mise à jour : 11 avril 2026</p>
+</header>
+
+<p>Cette politique de confidentialité explique comment l'application <strong>Nouchi Gospel</strong> (« l'Application ») collecte, utilise et protège les informations des utilisateurs (« vous »).</p>
+
+<p>En utilisant Nouchi Gospel, vous acceptez les pratiques décrites dans cette politique.</p>
+
+<h2>1. Qui nous sommes</h2>
+<p>Nouchi Gospel est une application mobile gratuite proposant des versets bibliques traduits en Nouchi, des motivations quotidiennes, la Bible complète et des informations sur des événements chrétiens.</p>
+<ul>
+  <li><strong>Éditeur</strong> : Michel Kouakou</li>
+  <li><strong>Contact</strong> : <a href="mailto:roschmichel12@gmail.com">roschmichel12@gmail.com</a></li>
+</ul>
+
+<h2>2. Données que nous collectons</h2>
+
+<h3>2.1 Données de compte (optionnel — via Google Sign-In)</h3>
+<p>Si vous choisissez de vous connecter avec votre compte Google, nous recevons de Google les informations suivantes :</p>
+<ul>
+  <li>Votre nom (tel qu'il apparaît sur votre compte Google)</li>
+  <li>Votre adresse e-mail</li>
+  <li>Votre photo de profil (si disponible)</li>
+</ul>
+<p>Ces informations sont utilisées uniquement pour :</p>
+<ul>
+  <li>Vous identifier dans l'application</li>
+  <li>Personnaliser votre expérience (afficher votre prénom, votre avatar)</li>
+  <li>Synchroniser vos préférences entre vos appareils</li>
+</ul>
+<p><strong>Nous n'accédons jamais à vos contacts, vos e-mails, votre agenda ou à tout autre contenu Google.</strong></p>
+
+<h3>2.2 Données de notification (push)</h3>
+<p>Pour vous envoyer le verset du jour, nous utilisons <strong>Firebase Cloud Messaging (FCM)</strong>. Cela génère un identifiant d'appareil anonyme (le « token FCM ») qui permet d'acheminer les notifications vers votre téléphone. Ce token n'est associé à aucune donnée personnelle identifiable.</p>
+<p>Vous pouvez désactiver les notifications à tout moment depuis les réglages de votre téléphone.</p>
+
+<h3>2.3 Données techniques</h3>
+<p>Comme la plupart des applications mobiles, nous collectons des données techniques minimales via <strong>Firebase</strong> :</p>
+<ul>
+  <li>Type d'appareil et système d'exploitation (ex. iPhone 14, iOS 17)</li>
+  <li>Version de l'application</li>
+  <li>Langue préférée</li>
+  <li>Statistiques d'utilisation anonymes (ex. écrans visités, fréquence d'ouverture)</li>
+</ul>
+<p>Ces données nous aident à améliorer l'application et à détecter les bugs. Elles ne permettent pas de vous identifier personnellement.</p>
+
+<h3>2.4 Données stockées localement</h3>
+<p>Vos préférences (versets favoris, notifications activées, onboarding vu, etc.) sont stockées <strong>uniquement sur votre appareil</strong> via <code>SharedPreferences</code>. Elles ne sont jamais envoyées à nos serveurs.</p>
+
+<h2>3. Ce que nous NE collectons PAS</h2>
+<p>Nous tenons à être clairs : Nouchi Gospel <strong>ne collecte pas</strong> :</p>
+<ul>
+  <li>Votre position GPS</li>
+  <li>Votre carnet de contacts</li>
+  <li>Vos photos ou médias</li>
+  <li>Votre microphone</li>
+  <li>Votre historique de navigation</li>
+  <li>Vos informations bancaires ou de paiement (l'application est 100% gratuite)</li>
+  <li>Vos mots de passe (l'authentification Google est gérée par Google, pas par nous)</li>
+</ul>
+
+<h2>4. Comment nous utilisons vos données</h2>
+<p>Nous utilisons vos données uniquement pour :</p>
+<ol>
+  <li>Faire fonctionner l'application (afficher les versets, synchroniser vos préférences)</li>
+  <li>Vous envoyer les notifications que vous avez acceptées</li>
+  <li>Améliorer l'application (correction de bugs, nouvelles fonctionnalités)</li>
+  <li>Répondre à vos demandes si vous nous contactez</li>
+</ol>
+<p><strong>Nous ne vendons JAMAIS vos données à des tiers. Nous ne les utilisons pas à des fins publicitaires.</strong></p>
+
+<h2>5. Partage avec des tiers</h2>
+<p>Vos données sont traitées par les services suivants, qui appliquent leurs propres politiques de confidentialité strictes :</p>
+<table>
+  <thead>
+    <tr><th>Service</th><th>Usage</th><th>Politique</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Google Firebase</strong></td>
+      <td>Stockage, authentification, notifications</td>
+      <td><a href="https://firebase.google.com/support/privacy" target="_blank">Lien</a></td>
+    </tr>
+    <tr>
+      <td><strong>Google Sign-In</strong></td>
+      <td>Connexion optionnelle</td>
+      <td><a href="https://policies.google.com/privacy" target="_blank">Lien</a></td>
+    </tr>
+    <tr>
+      <td><strong>Apple App Store</strong></td>
+      <td>Distribution iOS</td>
+      <td><a href="https://www.apple.com/legal/privacy/" target="_blank">Lien</a></td>
+    </tr>
+    <tr>
+      <td><strong>Google Play Store</strong></td>
+      <td>Distribution Android</td>
+      <td><a href="https://policies.google.com/privacy" target="_blank">Lien</a></td>
+    </tr>
+  </tbody>
+</table>
+<p>Nous ne partageons vos données avec aucun autre tiers, sauf si la loi nous y oblige.</p>
+
+<h2>6. Stockage et sécurité</h2>
+<p>Vos données sont stockées sur les serveurs sécurisés de <strong>Google Firebase</strong>, qui respectent les normes internationales de sécurité (chiffrement en transit et au repos).</p>
+<p>Malgré toutes les précautions, aucune transmission sur Internet n'est 100% sécurisée. Nous nous engageons à utiliser les meilleures pratiques, mais nous ne pouvons garantir une sécurité absolue.</p>
+
+<h2>7. Durée de conservation</h2>
+<ul>
+  <li><strong>Données de compte</strong> : conservées tant que votre compte existe. Si vous supprimez votre compte, elles sont effacées sous 30 jours.</li>
+  <li><strong>Token FCM</strong> : supprimé automatiquement dès que vous désinstallez l'application ou désactivez les notifications.</li>
+  <li><strong>Données techniques anonymes</strong> : conservées jusqu'à 14 mois maximum (politique Firebase par défaut).</li>
+</ul>
+
+<h2>8. Vos droits</h2>
+<p>Conformément au <strong>RGPD</strong> (Europe) et aux lois équivalentes, vous avez le droit de :</p>
+<ul>
+  <li><strong>Accéder</strong> à vos données</li>
+  <li><strong>Rectifier</strong> vos données si elles sont inexactes</li>
+  <li><strong>Supprimer</strong> vos données (droit à l'oubli)</li>
+  <li><strong>Vous opposer</strong> au traitement de vos données</li>
+  <li><strong>Demander la portabilité</strong> de vos données</li>
+</ul>
+<p>Pour exercer ces droits, écrivez-nous à : <a href="mailto:roschmichel12@gmail.com"><strong>roschmichel12@gmail.com</strong></a></p>
+<p>Nous répondons sous 30 jours maximum.</p>
+
+<h3>Comment supprimer votre compte</h3>
+<ol>
+  <li>Envoyez un e-mail à roschmichel12@gmail.com avec l'objet « Suppression de compte »</li>
+  <li>Indiquez l'adresse e-mail liée à votre compte</li>
+  <li>Nous supprimons votre compte et toutes vos données sous 30 jours</li>
+</ol>
+
+<h2>9. Enfants</h2>
+<p>Nouchi Gospel est accessible à partir de <strong>4 ans</strong>. Nous ne collectons pas sciemment de données personnelles auprès d'enfants de moins de 13 ans. Si vous êtes parent et pensez que votre enfant nous a fourni des données, contactez-nous pour que nous les supprimions.</p>
+
+<h2>10. Modifications de cette politique</h2>
+<p>Nous pouvons mettre à jour cette politique de confidentialité pour refléter des changements dans l'application ou la législation. La date en haut de ce document indique la dernière version.</p>
+<p>Si des changements importants ont lieu, nous vous en informerons dans l'application ou par notification.</p>
+
+<h2>11. Contact</h2>
+<p>Pour toute question concernant cette politique ou vos données personnelles :</p>
+<p><strong>E-mail</strong> : <a href="mailto:roschmichel12@gmail.com">roschmichel12@gmail.com</a></p>
+<p><strong>Responsable du traitement</strong> : Michel Kouakou</p>
+
+<footer>
+  Nouchi Gospel — Application indépendante développée avec foi et respect pour ses utilisateurs.<br>
+  © 2026 Michel Kouakou
+</footer>
+
+</body>
+</html>
